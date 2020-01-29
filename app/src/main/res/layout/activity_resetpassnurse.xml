@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+  android:background="@drawable/gradient_bg"
+    android:layout_height="match_parent"
+    tools:context=".Resetpass">
+
+
+    <EditText
+        android:id="@+id/npass1"
+        android:layout_width="333dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="New Password"
+        android:background="@drawable/bt"
+        android:drawableLeft="@drawable/pass"
+        android:drawableStart="@drawable/pass"
+        android:padding="8dp"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <EditText
+        android:id="@+id/cnpass1"
+        android:layout_width="333dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/pass"
+        android:drawableLeft="@drawable/pass"
+        android:background="@drawable/bt"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <Button
+        android:id="@+id/reset_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="SUDMIT"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.686" />
+
+</android.support.constraint.ConstraintLayout>

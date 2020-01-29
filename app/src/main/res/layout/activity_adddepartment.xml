@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context="com.msg91.sendotp.sample.ADDdepartment">
+
+
+    <EditText
+        android:id="@+id/aa2"
+        android:layout_width="305dp"
+        android:layout_height="47dp"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/enter"
+        android:drawableLeft="@drawable/enter"
+        android:ems="15"
+        android:hint="Enter Department"
+        android:inputType="text"
+        android:maxLength="10"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <Button
+        android:id="@+id/aa1"
+        android:layout_width="164dp"
+        android:layout_height="47dp"
+        android:background="@drawable/btn"
+        android:ems="15"
+        android:hint="upload"
+        android:inputType="text"
+        android:maxLength="10"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
+</android.support.constraint.ConstraintLayout>

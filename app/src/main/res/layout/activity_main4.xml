@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:layout_height="match_parent"
+    tools:context="com.msg91.sendotp.sample.MainActivity3">
+
+
+    <Button
+        android:id="@+id/reqview"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bt"
+        android:ems="10"
+
+        android:padding="10dp"
+        android:text="VIEW REQEST"
+        android:textColor="@color/black"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
+
+
+    <Button
+        android:id="@+id/req"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bt"
+        android:ems="10"
+
+        android:padding="10dp"
+        android:text="View"
+        android:textColor="@color/black"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+
+</android.support.constraint.ConstraintLayout>

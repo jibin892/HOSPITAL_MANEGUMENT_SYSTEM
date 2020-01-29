@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context="com.msg91.sendotp.sample.Request">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="328dp"
+        android:layout_height="500dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/h_btn11"
+                android:layout_width="116dp"
+                android:layout_height="36dp"
+                android:background="@drawable/btnnn"
+                android:text="next"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.88" />
+
+            <Spinner
+                android:id="@+id/pname"
+                android:layout_width="274dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btn"
+                android:drawableStart="@drawable/enter"
+                android:drawableLeft="@drawable/enter"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="5"
+                android:padding="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.722"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.728" />
+
+            <TextView
+                android:id="@+id/pname2"
+                android:layout_width="231dp"
+                android:layout_height="46dp"
+                android:background="@drawable/bt"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/hos"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.422"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.395" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pname4"
+                android:layout_width="123dp"
+                android:layout_height="145dp"
+                android:background="@drawable/cr"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.022" />
+
+            <TextView
+                android:id="@+id/pname3"
+                android:layout_width="231dp"
+                android:layout_height="46dp"
+                android:background="@drawable/bt"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/place"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.422"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.56" />
+
+            <TextView
+                android:id="@+id/pname5"
+                android:layout_width="148dp"
+                android:layout_height="34dp"
+                android:padding="8dp"
+                android:text=" Hospital Name"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.227"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.328" />
+
+            <TextView
+                android:id="@+id/pname6"
+                android:layout_width="221dp"
+                android:layout_height="37dp"
+                android:padding="8dp"
+                android:text="District"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.38"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.478" />
+
+            <TextView
+                android:id="@+id/pname7"
+                android:layout_width="207dp"
+                android:layout_height="31dp"
+
+                android:text="Select Department"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.633" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>

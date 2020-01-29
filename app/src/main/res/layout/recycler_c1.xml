@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="420dp"
+        android:layout_height="362dp"
+
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="34dp"
+
+            android:layout_marginRight="20dp"
+            android:text=" Doctor Name"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dname"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:text="Hospital Name"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dhos"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:text="Department"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ddep"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/dappo11"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/btnnn"
+            android:text="Appoiment"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

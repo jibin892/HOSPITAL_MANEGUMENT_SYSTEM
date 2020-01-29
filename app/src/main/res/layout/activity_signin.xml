@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:layout_height="match_parent"
+    tools:context=".Signin">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="345dp"
+        android:layout_height="398dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="334dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/login11"
+                android:layout_width="116dp"
+                android:layout_height="35dp"
+                android:background="@drawable/btnnn"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.51"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.821" />
+
+            <EditText
+                android:id="@+id/passok11"
+                android:layout_width="272dp"
+                android:layout_height="51dp"
+                android:background="@drawable/bt"
+                android:drawableStart="@drawable/pass"
+                android:drawableLeft="@drawable/pass"
+                android:ems="15"
+                android:hint="Enter Your Password"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.578"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.455" />
+
+            <EditText
+                android:id="@+id/dw11"
+                android:layout_width="268dp"
+                android:layout_height="47dp"
+                android:background="@drawable/bt"
+                android:drawableStart="@drawable/phone"
+                android:drawableLeft="@drawable/phone"
+                android:ems="15"
+                android:hint="Enter Your Phone Number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.545"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.245" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.134"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.633" />
+
+            <TextView
+                android:id="@+id/fro11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.156"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.952" />
+
+            <TextView
+                android:id="@+id/signin11"
+                android:layout_width="128dp"
+                android:layout_height="20dp"
+                android:text="Create a Account"
+                android:textColor="#3a7bd5"
+                android:textSize="16dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.949" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/docter_btn"
+        android:layout_width="143dp"
+        android:layout_height="23dp"
+        android:text="Docter Registration"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/r"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <TextView
+        android:id="@+id/admin_btn11"
+        android:layout_width="88dp"
+        android:layout_height="32dp"
+        android:text="Admin login"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
+
+
+</android.support.constraint.ConstraintLayout>

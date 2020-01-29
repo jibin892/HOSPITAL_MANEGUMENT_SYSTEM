@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="30dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView12"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="692dp"
+
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/depa"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tnamea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emaila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hosa"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/addressa"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dateaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dnamea"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gendera"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnn"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btnnn"
+            android:ems="10"
+            android:padding="12dp"
+            android:text="ACCEPT"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/declaine"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/red"
+            android:ems="10"
+            android:padding="12dp"
+            android:text="Declaine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

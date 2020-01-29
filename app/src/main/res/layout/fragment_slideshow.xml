@@ -1,0 +1,37 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swiperefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editTextsearch"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/btnn"
+            android:drawableLeft="@drawable/search"
+            android:ems="10"
+            android:hint="Search by District"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#CEA09D9D"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recylcerViewc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="745dp"
+            tools:layout_editor_absoluteY="-51dp" />
+
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
